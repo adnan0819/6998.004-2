@@ -24,11 +24,7 @@ Note that the access token is mine.
 
 **What each message mean?**
 
-Every message polled from this refers to the event of a person taking a picture of a specific event (at this moment) that relates to the hashtags mentioned. Note that I used a subsring search so even if I am searching for "rain" I will get hashtags like "raining", "rainy" etc. and similarly "stormy", "snowstorm", "sandstorm" etc. Moreover, I am only accepting posts with Geolocation for verificaiton purposes and returning ***date/time, location name, longitude and latitude*** from where it was taken. This I am filtering out the unverifiable posts. 
-
-**Volume of Message expected:**
-
-The volume of message really depends on user preference of hashtags and polling interval. For demo purposes, if you select all the hashtags and a polling interval of 2 seconds, you can expect to get 10-12 result in a minute. This can drastically reduce if you were to only triangulate #earthquake. 
+Every message polled from this refers to the event of a person taking a picture of a specific fire event (at this moment) that relates to the hashtags mentioned. Note that I used a subsring search so even if I am searching for "fire" I will get hashtags like "buidingfire", "firestorm" etc. 
 
 
 **The nitty-gritty of the codes are well comprehensively commented in the source files)**
