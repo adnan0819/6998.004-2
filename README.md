@@ -43,7 +43,7 @@ Every message polled from this refers to the event of a person taking a picture 
 
 **Prerequisites:** 
 
-- ` Python 2,7x `
+- ` Python 2.7x `
 - ` Redis `
 - ` Requests ` 
 - ` Websocketd ` 
