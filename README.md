@@ -55,7 +55,7 @@ Assuming you are using a Mac (or any UNIX based terminal) and have the prerequis
 
 6. Load up the front end: Go to Google Chrome and browse to http://localhost:8000/ . 
 
- * For demo purposes, you might want to open the instagram.py script and replace "fire" to "food" or "selfie" to see immediate results. The reason is, I have tweaked it in a practical manner i.e. for the alarm to go off, the rate has to be less than or equal to 60 seconds. It is highly unlikely that there will be a fire in NYC when you will be running the assignment.  After loading the page, click "Go." The streaming alerting system will start.
+ * For demo purposes, you might want to open the instagram.py script (LINE 39) and replace "fire" to "food" or "selfie" to see immediate results. The reason is, I have tweaked it in a practical manner i.e. for the alarm to go off, the rate has to be less than or equal to 60 seconds. It is highly unlikely that there will be a fire in NYC when you will be running the assignment.  After loading the page, click "Go." The streaming alerting system will start.
 
 
 **The webpage will go on forever so you need to reload it (as mentioned in the Assignment instructions).**
