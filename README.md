@@ -27,7 +27,7 @@ Note that the access token is mine.
 Every message polled from this refers to the event of a person taking a picture of a specific fire event (at this moment) that relates to the hashtags mentioned. Note that I used a subsring search so even if I am searching for "fire" I will get hashtags like "buidingfire", "firestorm" etc. 
 
 
-**The nitty-gritty of the codes are well comprehensively commented in the source files)**
+**The nitty-gritty of the codes are well comprehensively commented in the source files**
 
 # Files of Relevance
 
