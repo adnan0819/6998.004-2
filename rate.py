@@ -25,7 +25,7 @@ while 1: #this loop will run forever, storing key-value pair of posts and calcul
     #the following if-else block calculates the actual rate of messages/posts
     if len(deltas): #this checks if delta is not 0. If it is non-zero, we calculate the rate
         rate = sum(deltas)/float(len(deltas)) #We get the rate by dividing the number of messages by the total time interval of those messages
-        if(rate>=60):
+        if(rate<=60):
             # Here we check if we have a rate less than or equal to 60 seconds.
             # The 60 seconds is the set threshold for my system.
             # If posts are coming in with #fire and #nyc hashtags more frequently than 60 seconds
