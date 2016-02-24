@@ -43,10 +43,10 @@ Every message polled from this refers to the event of a person taking a picture 
 
 *** Prerequisites: ***
 
-` 1. Python 2,7x `
-` 2. Redis `
-` 3. Requests ` 
-` 4. Websocketd ` 
+` - Python 2,7x `
+` - Redis `
+` - Requests ` 
+` - Websocketd ` 
 
 
 Assuming you are using a Mac (or any UNIX based terminal) and have the prerequisites (Python 2.7, websocketd) installed the steps are as follows:
