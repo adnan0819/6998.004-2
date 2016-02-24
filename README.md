@@ -41,7 +41,7 @@ Every message polled from this refers to the event of a person taking a picture 
 
 # How to run:
 
-*** Prerequisites: ***
+**Prerequisites:** 
 
 - ` Python 2,7x `
 - ` Redis `
@@ -49,6 +49,7 @@ Every message polled from this refers to the event of a person taking a picture 
 - ` Websocketd ` 
 
 
+**Running**
 Assuming you are using a Mac (or any UNIX based terminal) and have the prerequisites (Python 2.7, websocketd) installed the steps are as follows:
 
 1. Download this directory to your computer
