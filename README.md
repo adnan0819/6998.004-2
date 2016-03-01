@@ -61,7 +61,7 @@ Assuming you are using a Mac (or any UNIX based terminal) and have the prerequis
 
 4. Make sure Redis is running (if not running, type in "redis-server" in Terminal assuming it is in the path). Then in a different terminal tab (while point 1 is running) type in ` python rate.py ` and hit enter. 
 
-4. Setting up web socket: Now open another new tab in the terminal (while being in the same directory) and type in the following: ` websocketd --port 8080 python instagram.py ` and hit enter. The web socket will be up and running and will be serving over port 8080. 
+4. Setting up web socket: Now open another new tab in the terminal (while being in the same directory) and type in the following: ` websocketd --port 8080 python rate.py ` and hit enter. The web socket will be up and running and will be serving over port 8080. 
  
 5. Setting up web server: Again open a new terminal tab (WHILE THE PREVIOUS ONE IS RUNNING) and type in ` python -m SimpleHTTPServer ` and hit enter. Now we are good to go as we have this directory serving over port 8000. 
 
