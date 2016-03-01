@@ -36,7 +36,7 @@ while True:
             # in the hashtag array.
             # From these filtered posts, we extract the date, location, longitude and latitude
             # Any image without geolocation is discarded
-            if any("food" in s for s in m["tags"]): #Checking for #Fire
+            if any("fire" in s for s in m["tags"]): #Checking for #Fire
                     if any("nyc" or "NYC" in x for x in m["tags"]): #checking for (#nyc or #NYC)
                                 #Storing the Instagram given post ID to recognize the post later to avoid repetition
                                 tagFireId=m["id"]
