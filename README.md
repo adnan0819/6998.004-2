@@ -1,11 +1,9 @@
-# COMSE6998.004 Assignment 2
-
 # NYC Fire Alert Powered by Instagram 
 
-# - Adnan Firoze (af2728)
+# - Adnan Firoze
 # (Dual MS in CS & Journalism)
 
-This project/assignment polls Instagram API's ***recent tags endpoint*** and pulls out "#fire" and ("#NYC" or "nyc") tags appearing together. From there, we calculate the rate and if we find a rate below 60s then we set off an alarm on a web page. 
+This project polls Instagram API's ***recent tags endpoint*** and pulls out "#fire" and ("#NYC" or "nyc") tags appearing together. From there, we calculate the rate and if we find a rate below 60s then we set off an alarm on a web page. 
 
 # Why should one care?
 
